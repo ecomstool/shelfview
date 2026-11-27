@@ -4,7 +4,7 @@
 
 <h1 align="center">ShelfView</h1>
 
-<p align="center"><b>Fast Amazon Quick View with free monthly sales estimates, BSR, Buy Box and FBA &amp; FBM sellers.</b></p>
+<p align="center"><b>Fast Amazon Quick View with monthly sales estimates, BSR, Buy Box and FBA &amp; FBM sellers.</b></p>
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/YOUR-EXTENSION-ID">Get it on the Chrome Web Store</a> ·
@@ -17,7 +17,7 @@
 ShelfView adds one clean box under every product on Amazon search and Best Sellers pages:
 
 - **Best Sellers Rank** – main category and sub-category
-- **Estimated monthly sales** – free, no login
+- **Estimated monthly sales** – no login, no subscription
 - **Buy Box owner** – Amazon, FBA or FBM
 - **Amazon, FBA and FBM seller counts** – new offers only, each seller counted once
 - **ASIN** with one-click copy
