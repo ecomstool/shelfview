@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – ShelfView</title>
+  <meta name="description" content="ShelfView privacy policy: no personal data is collected, no account, no analytics. Everything runs in your browser.">
+  <link rel="icon" href="logo.png">
+  <style>
+    :root { --navy: #1f2937; --muted: #4b5563; --line: #e5e7eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif; color: var(--navy); line-height: 1.65; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px 60px; }
+    header { display: flex; align-items: center; gap: 10px; padding: 22px 0; font-weight: 700; font-size: 18px; }
+    header img { width: 32px; height: 32px; }
+    header a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px; }
+    h1 { font-size: 34px; letter-spacing: -0.6px; margin: 20px 0 4px; }
+    .date { color: var(--muted); margin: 0 0 24px; }
+    h2 { font-size: 21px; margin: 32px 0 8px; }
+    p, li { color: #374151; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0; }
+    th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 9px 8px; vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; }
+    code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+    .summary { background: #f9fafb; border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; }
+    footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><a href="index.html"><img src="logo.png" alt="">ShelfView</a></header>
+
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective date: November 27, 2026</p>
+
+    <p>ShelfView ("the extension") is a Chrome extension that shows product information under search results on Amazon websites. This policy explains what the extension does with data.</p>
+
+    <div class="summary">
+      <ul>
+        <li>ShelfView does <b>not</b> collect, store on our servers, sell or share any personal information.</li>
+        <li>ShelfView has <b>no</b> account, login, analytics or advertising.</li>
+        <li>Everything the extension does happens <b>inside your own browser</b>.</li>
+      </ul>
+    </div>
+
+    <h2>What the extension reads</h2>
+    <p>When you open an Amazon search, Best Sellers, New Releases or Movers &amp; Shakers page, ShelfView reads, from the same Amazon website you are visiting:</p>
+    <ul>
+      <li>the product page of each product in the results (to find the Best Sellers Rank, brand and date first available), and</li>
+      <li>the product's "All offers" list (to find the Buy Box owner and the number of Amazon, FBA and FBM sellers).</li>
+    </ul>
+    <p>It also reads the "bought in past month" text that Amazon shows on the search page, to estimate monthly sales.</p>
+    <p>These requests go directly from your browser to Amazon, the same way they would if you opened those pages yourself. ShelfView does not run on product, cart, checkout or sign-in pages.</p>
+
+    <h2>What the extension stores</h2>
+    <table>
+      <tr><th>Data</th><th>Where</th><th>Why</th><th>How long</th></tr>
+      <tr><td>Your display settings (which lines to show)</td><td><code>chrome.storage.sync</code> in your browser</td><td>To remember your choices</td><td>Until you change them or remove the extension</td></tr>
+      <tr><td>Product results (rank, sales estimate, seller counts)</td><td><code>chrome.storage.local</code> on your computer</td><td>To load pages faster and send fewer requests to Amazon</td><td>12 hours, then removed automatically</td></tr>
+    </table>
+    <p>If Chrome sync is turned on, Google may sync your settings between your own browsers. You can delete saved product results at any time with <b>Clear saved data</b> in the extension's popup, or by removing the extension.</p>
+
+    <h2>What we do not do</h2>
+    <ul>
+      <li>We do not collect names, email addresses, passwords, payment details or any other personal information.</li>
+      <li>We do not collect your browsing history or the products you look at.</li>
+      <li>We do not send any data to our own servers or to any third party.</li>
+      <li>We do not sell, rent or trade any data.</li>
+      <li>We do not use data for advertising, credit scoring or any purpose other than showing product information on the page.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><b>storage</b> – to save your settings and the 12-hour product cache described above.</li>
+      <li><b>Access to Amazon websites</b> – to show product information under search results and to read the product and offer pages listed above.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>ShelfView is a tool for Amazon sellers and is not directed at children.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. If a future version of ShelfView ever needs to collect information, it will ask you first and this policy will be updated before that version is released.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="mailto:ecomstool@gmail.com">ecomstool@gmail.com</a></p>
+
+    <footer>© 2026 ShelfView · ShelfView is not affiliated with or endorsed by Amazon.</footer>
+  </div>
+</body>
+</html>
